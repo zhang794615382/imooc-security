@@ -1,0 +1,13 @@
+# ==================== 数据库配置 ====================
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/imooc-demo
+    username: root
+    password: admin
+  session:
+    store-type: none
+security:
+  basic:
+    enabled: false
+
